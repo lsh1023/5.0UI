@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/action1"
+            android:icon="@mipmap/ic_notifications"
+            android:title="博客地址"
+            />
+        <item
+            android:id="@+id/action2"
+            android:icon="@mipmap/ic_notifications"
+            android:title="版本信息"
+            />
+
+        <item
+            android:id="@+id/action3"
+            android:icon="@mipmap/ic_notifications"
+            android:title="关于"
+            />
+    </group>
+
+    <item android:title="子菜单">
+        <menu>
+            <item
+                android:id="@+id/action4"
+                android:title="子菜单1"
+                android:icon="@mipmap/ic_notifications"
+                />
+            <item
+                android:id="@+id/action5"
+                android:title="子菜单2"
+                android:icon="@mipmap/ic_notifications"
+                />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ComplexUi</string>
+
+    <string-array name="tab_names">
+        <item>军事</item>
+        <item>科技</item>
+        <item>娱乐</item>
+        <item>社会</item>
+        <item>体育</item>
+    </string-array>
+</resources>
